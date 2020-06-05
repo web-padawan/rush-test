@@ -14,7 +14,7 @@ dependencies:
   mocha: 7.2.0
   tslib: 2.0.0
   typescript: 3.9.5
-  web-test-runner: 0.0.34
+  web-test-runner: 0.0.35
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.1:
@@ -4328,7 +4328,7 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
-  /web-test-runner/0.0.34:
+  /web-test-runner/0.0.35:
     dependencies:
       '@types/deepmerge': 2.2.0
       '@types/diff': 4.0.2
@@ -4352,6 +4352,7 @@ packages:
       mocha: 7.2.0
       mochawesome: 6.1.1_mocha@7.2.0
       playwright: 1.0.2
+      portfinder: 1.0.26
       puppeteer: 3.3.0
       selenium-webdriver: 4.0.0-alpha.7
       tap-spec: 5.0.0
@@ -4359,7 +4360,7 @@ packages:
     dev: false
     hasBin: true
     resolution:
-      integrity: sha512-hT4V+LvWKPId8t72pIXPxzonejdLDMoICt5uMQGP52qh38XiChW/OcBfxlJ8IV6B9IwkdgvjV4wP1hntx/566w==
+      integrity: sha512-qzp7ofQNGYLr/X1SwTIMzloZwT5jGiZTriMUn3d2B1kZV9EXPVT/sU6JRfwZjQ3DQVGstNPuCzoYLjLd8PrLgA==
   /webidl-conversions/4.0.2:
     dev: false
     resolution:
@@ -4523,11 +4524,11 @@ packages:
       mocha: 7.2.0
       tslib: 2.0.0
       typescript: 3.9.5
-      web-test-runner: 0.0.34
+      web-test-runner: 0.0.35
     dev: false
     name: '@rush-temp/disabled-state-mixin'
     resolution:
-      integrity: sha512-fz+qXGiH1Z3Bt7y/I/ogHrONiooEP9ji8iK0ErEHYbqz/KtTvcVZXwy6aFy4DGzscprgt/YDRH+TKVsG814ybg==
+      integrity: sha512-lOWvK6TPkwWlgmH/h1CP7QCw+1d4moVhb7t1dwhnoeeY8nh+hYkycxRFN+KKvZ5lpSBGce5I2Hbb/aSHr2Q1ew==
       tarball: 'file:projects/disabled-state-mixin.tgz'
     version: 0.0.0
   'file:projects/slotted-items-mixin.tgz':
@@ -4545,11 +4546,11 @@ packages:
       mocha: 7.2.0
       tslib: 2.0.0
       typescript: 3.9.5
-      web-test-runner: 0.0.34
+      web-test-runner: 0.0.35
     dev: false
     name: '@rush-temp/slotted-items-mixin'
     resolution:
-      integrity: sha512-XpOXGiZeMX5ANOs+TzPf7oPjD5DYsg218Hk3xiJrGqjnrgas3TWiuHnfRMdrWljIbVLuB3IsKXuoivqJnSDsSQ==
+      integrity: sha512-Tfb6gKgtncMTOFOHXsrENLfJq/CQnJ9WOq2vtQ2zhZVl2whMHl0CgMINLBY9V/8MINHUiZXUFMGi8yrPpxMLHg==
       tarball: 'file:projects/slotted-items-mixin.tgz'
     version: 0.0.0
   'file:projects/test-helpers.tgz':
@@ -4578,4 +4579,4 @@ specifiers:
   mocha: ^7.2.0
   tslib: ^2.0.0
   typescript: ^3.9.5
-  web-test-runner: ^0.0.34
+  web-test-runner: ^0.0.35

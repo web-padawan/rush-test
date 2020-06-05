@@ -34,7 +34,7 @@
     "@vaadin/test-helpers": "^0.1.5",
     "mocha": "^7.2.0",
     "typescript": "^3.9.5",
-    "web-test-runner": "^0.0.34"
+    "web-test-runner": "^0.0.35"
   },
   "publishConfig": {
     "access": "public"
