@@ -62,3 +62,11 @@ jspm_packages/
 common/deploy/
 common/temp/
 **/.rush/temp/
+
+# Build output
+
+*.d.ts
+*.map
+mixins/**/*.js
+tools/**/*.js
+*.tsbuildinfo
