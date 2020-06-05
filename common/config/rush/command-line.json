@@ -16,6 +16,7 @@
       "name": "test",
       "summary": "Run tests",
       "enableParallelism": false,
+      "incremental": true,
       "ignoreMissingScript": true
     }
     // {
