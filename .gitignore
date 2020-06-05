@@ -70,3 +70,4 @@ common/temp/
 mixins/**/*.js
 tools/**/*.js
 *.tsbuildinfo
+!*.config.js

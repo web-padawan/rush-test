@@ -1,5 +1,7 @@
 dependencies:
   '@bundled-es-modules/chai': 4.2.2
+  '@open-wc/dedupe-mixin': 1.2.17
+  '@open-wc/scoped-elements': 1.1.1
   '@open-wc/testing-helpers': 1.8.2
   '@rush-temp/slotted-items-mixin': 'file:projects/slotted-items-mixin.tgz'
   '@rush-temp/test-helpers': 'file:projects/test-helpers.tgz'
@@ -8,6 +10,7 @@ dependencies:
   '@vaadin/mixin-utils': 0.1.0
   lit-element: 2.3.1
   lit-html: 1.2.1
+  mocha: 7.2.0
   tslib: 2.0.0
   typescript: 3.9.5
   web-test-runner: 0.0.34
@@ -4508,6 +4511,8 @@ packages:
   'file:projects/slotted-items-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
+      '@open-wc/dedupe-mixin': 1.2.17
+      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
@@ -4515,13 +4520,14 @@ packages:
       '@vaadin/mixin-utils': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
+      mocha: 7.2.0
       tslib: 2.0.0
       typescript: 3.9.5
       web-test-runner: 0.0.34
     dev: false
     name: '@rush-temp/slotted-items-mixin'
     resolution:
-      integrity: sha512-xiQ0fHjSbs34PCnCtnADHSTAw35TQFzIMPwBd0sje0F5/6tFtDr+11WnF0NsqNo+gMCQp81zYyorSH7lqXdxuA==
+      integrity: sha512-XpOXGiZeMX5ANOs+TzPf7oPjD5DYsg218Hk3xiJrGqjnrgas3TWiuHnfRMdrWljIbVLuB3IsKXuoivqJnSDsSQ==
       tarball: 'file:projects/slotted-items-mixin.tgz'
     version: 0.0.0
   'file:projects/test-helpers.tgz':
@@ -4536,6 +4542,8 @@ packages:
 registry: ''
 specifiers:
   '@bundled-es-modules/chai': ^4.2.2
+  '@open-wc/dedupe-mixin': ^1.2.17
+  '@open-wc/scoped-elements': ^1.1.1
   '@open-wc/testing-helpers': ^1.2.1
   '@rush-temp/slotted-items-mixin': 'file:./projects/slotted-items-mixin.tgz'
   '@rush-temp/test-helpers': 'file:./projects/test-helpers.tgz'
@@ -4544,6 +4552,7 @@ specifiers:
   '@vaadin/mixin-utils': ^0.1.0
   lit-element: ^2.0.0
   lit-html: ^1.0.0
+  mocha: ^7.2.0
   tslib: ^2.0.0
   typescript: ^3.9.5
   web-test-runner: ^0.0.34
