@@ -1,0 +1,42 @@
+{
+  "name": "@vaadin/disabled-state-mixin",
+  "version": "0.1.1",
+  "author": "Vaadin Ltd",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaadin/component-mixins.git",
+    "directory": "packages/disabled-state-mixin"
+  },
+  "main": "disabled-state-mixin.js",
+  "module": "disabled-state-mixin.js",
+  "files": [
+    "disabled-state-*.d.ts*",
+    "disabled-state-*.js*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "wtr test/*.test.js"
+  },
+  "dependencies": {
+    "@vaadin/mixin-utils": "^0.1.0",
+    "lit-element": "^2.0.0",
+    "lit-html": "^1.0.0",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@bundled-es-modules/chai": "^4.2.2",
+    "@open-wc/dedupe-mixin": "^1.2.17",
+    "@open-wc/scoped-elements": "^1.1.1",
+    "@open-wc/testing-helpers": "^1.2.1",
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@vaadin/test-helpers": "^0.1.5",
+    "mocha": "^7.2.0",
+    "typescript": "^3.9.5",
+    "web-test-runner": "^0.0.34"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

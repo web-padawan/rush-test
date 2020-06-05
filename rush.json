@@ -367,6 +367,10 @@
       "projectFolder": "tools/test-helpers"
     },
     {
+      "packageName": "@vaadin/disabled-state-mixin",
+      "projectFolder": "mixins/disabled-state-mixin"
+    },
+    {
       "packageName": "@vaadin/slotted-items-mixin",
       "projectFolder": "mixins/slotted-items-mixin"
     }
