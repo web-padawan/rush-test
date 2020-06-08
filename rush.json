@@ -363,16 +363,100 @@
    */
   "projects": [
     {
-      "packageName": "@vaadin/test-helpers",
-      "projectFolder": "tools/test-helpers"
+      "packageName": "@vaadin/active-state-mixin",
+      "projectFolder": "mixins/active-state-mixin"
+    },
+    {
+      "packageName": "@vaadin/browser-utils",
+      "projectFolder": "mixins/browser-utils"
+    },
+    {
+      "packageName": "@vaadin/checked-state-mixin",
+      "projectFolder": "mixins/checked-state-mixin"
+    },
+    {
+      "packageName": "@vaadin/control-state-mixin",
+      "projectFolder": "mixins/control-state-mixin"
+    },
+    {
+      "packageName": "@vaadin/direction-mixin",
+      "projectFolder": "mixins/direction-mixin"
     },
     {
       "packageName": "@vaadin/disabled-state-mixin",
       "projectFolder": "mixins/disabled-state-mixin"
     },
     {
+      "packageName": "@vaadin/down-up-mixin",
+      "projectFolder": "mixins/down-up-mixin"
+    },
+    {
+      "packageName": "@vaadin/element-base",
+      "projectFolder": "mixins/element-base"
+    },
+    {
+      "packageName": "@vaadin/focus-visible-mixin",
+      "projectFolder": "mixins/focus-visible-mixin"
+    },
+    {
+      "packageName": "@vaadin/keyboard-direction-mixin",
+      "projectFolder": "mixins/keyboard-direction-mixin"
+    },
+    {
+      "packageName": "@vaadin/keyboard-mixin",
+      "projectFolder": "mixins/keyboard-mixin"
+    },
+    {
+      "packageName": "@vaadin/media-query-mixin",
+      "projectFolder": "mixins/media-query-mixin"
+    },
+    {
+      "packageName": "@vaadin/mixin-utils",
+      "projectFolder": "mixins/mixin-utils"
+    },
+    {
+      "packageName": "@vaadin/orientation-mixin",
+      "projectFolder": "mixins/orientation-mixin"
+    },
+    {
+      "packageName": "@vaadin/resizable-mixin",
+      "projectFolder": "mixins/resizable-mixin"
+    },
+    {
+      "packageName": "@vaadin/roving-tabindex-mixin",
+      "projectFolder": "mixins/roving-tabindex-mixin"
+    },
+    {
+      "packageName": "@vaadin/selected-state-mixin",
+      "projectFolder": "mixins/selected-state-mixin"
+    },
+    {
+      "packageName": "@vaadin/selection-in-view-mixin",
+      "projectFolder": "mixins/selection-in-view-mixin"
+    },
+    {
+      "packageName": "@vaadin/single-selection-mixin",
+      "projectFolder": "mixins/single-selection-mixin"
+    },
+    {
       "packageName": "@vaadin/slotted-items-mixin",
       "projectFolder": "mixins/slotted-items-mixin"
+    },
+    {
+      "packageName": "@vaadin/slotted-label-mixin",
+      "projectFolder": "mixins/slotted-label-mixin"
+    },
+    {
+      "packageName": "@vaadin/test-helpers",
+      "projectFolder": "tools/test-helpers"
+    },
+    {
+      "packageName": "@vaadin/themable-element",
+      "projectFolder": "mixins/themable-element"
+    },
+    {
+      "packageName": "@vaadin/track-event-mixin",
+      "projectFolder": "mixins/track-event-mixin"
     }
     // {
     //   /**

@@ -1,6 +1,7 @@
-import { LitElement, html, customElement } from 'lit-element';
 import { expect } from '@bundled-es-modules/chai';
-import { fixture } from '@open-wc/testing-helpers';
+import { LitElement, html, customElement } from 'lit-element';
+import sinon from 'sinon';
+import { fixture, nextFrame } from '@open-wc/testing-helpers';
 import { SlottedItemsMixin } from '../slotted-items-mixin';
 
 @customElement('sim-element')
@@ -53,18 +54,16 @@ describe('SlottedItemsMixin', () => {
       expect(element.items.length).to.be.equal(4);
     });
 
-    /*
     it('should fire `items-changed` event on items change', async () => {
       const spy = sinon.spy();
       element.addEventListener('items-changed', spy);
       const div = document.createElement('div');
       element.appendChild(div);
       await nextFrame();
-      expect(spy).to.be.calledOnce;
+      expect(spy.callCount).to.equal(1);
       expect(spy.firstCall.args[0]).to.be.instanceOf(CustomEvent);
       expect(spy.firstCall.args[0].detail.value).to.deep.equal(element.items);
     });
-    */
 
     it('should disallow external `items` modifications', async () => {
       element.items = [];

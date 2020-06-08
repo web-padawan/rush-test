@@ -1,0 +1,52 @@
+{
+  "name": "@vaadin/element-base",
+  "version": "0.4.0",
+  "author": "Vaadin Ltd",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaadin/component-mixins.git",
+    "directory": "packages/element-base"
+  },
+  "main": "vaadin-element.js",
+  "module": "vaadin-element.js",
+  "files": [
+    "vaadin-element.d.ts*",
+    "vaadin-element.js*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "wtr test/*.test.js --preserve-symlinks"
+  },
+  "dependencies": {
+    "@polymer/polymer": "^3.3.0",
+    "@vaadin/themable-element": "^0.3.0",
+    "@vaadin/vaadin-development-mode-detector": "^2.0.4",
+    "@vaadin/vaadin-element-mixin": "^2.4.1",
+    "@vaadin/vaadin-usage-statistics": "^2.1.0",
+    "lit-element": "^2.0.0",
+    "lit-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "@bundled-es-modules/chai": "^4.2.2",
+    "@open-wc/dedupe-mixin": "^1.2.17",
+    "@open-wc/scoped-elements": "^1.1.1",
+    "@open-wc/testing-helpers": "^1.2.1",
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/sinon": "^9.0.0",
+    "@web/test-runner": "^0.2.5",
+    "@web/test-runner-chrome": "^0.2.1",
+    "@web/test-runner-cli": "^0.1.7",
+    "@web/test-runner-core": "^0.2.3",
+    "@web/test-runner-dev-server": "^0.2.5",
+    "@web/test-runner-framework": "^0.1.0",
+    "@web/test-runner-mocha": "^0.1.0",
+    "mocha": "^7.2.0",
+    "sinon": "^9.0.1",
+    "typescript": "^3.9.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

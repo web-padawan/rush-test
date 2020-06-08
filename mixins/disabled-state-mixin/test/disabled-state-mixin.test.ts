@@ -1,5 +1,6 @@
-import { LitElement, html, customElement } from 'lit-element';
 import { expect } from '@bundled-es-modules/chai';
+import { LitElement, html, customElement } from 'lit-element';
+import sinon from 'sinon';
 import { fixture } from '@open-wc/testing-helpers';
 import { DisabledStateMixin } from '../disabled-state-mixin';
 
@@ -35,7 +36,6 @@ describe('DisabledStateMixin', () => {
     expect(element.getAttribute('aria-disabled')).to.be.equal(null);
   });
 
-  /*
   it('should fire click event for element when not disabled', () => {
     const spy = sinon.spy();
     element.addEventListener('click', spy);
@@ -51,5 +51,4 @@ describe('DisabledStateMixin', () => {
     element.click();
     expect(spy.called).to.be.false;
   });
-  */
 });

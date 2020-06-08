@@ -1,0 +1,48 @@
+{
+  "name": "@vaadin/selected-state-mixin",
+  "version": "0.1.2",
+  "author": "Vaadin Ltd",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaadin/component-mixins.git",
+    "directory": "packages/selected-state-mixin"
+  },
+  "main": "selected-state-mixin.js",
+  "module": "selected-state-mixin.js",
+  "files": [
+    "selected-state-*.d.ts*",
+    "selected-state-*.js*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "wtr test/*.test.js --preserve-symlinks"
+  },
+  "dependencies": {
+    "@vaadin/disabled-state-mixin": "^0.1.1",
+    "@vaadin/mixin-utils": "^0.1.0",
+    "lit-element": "^2.0.0",
+    "lit-html": "^1.0.0",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@bundled-es-modules/chai": "^4.2.2",
+    "@open-wc/dedupe-mixin": "^1.2.17",
+    "@open-wc/scoped-elements": "^1.1.1",
+    "@open-wc/testing-helpers": "^1.2.1",
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@web/test-runner": "^0.2.5",
+    "@web/test-runner-chrome": "^0.2.1",
+    "@web/test-runner-cli": "^0.1.7",
+    "@web/test-runner-core": "^0.2.3",
+    "@web/test-runner-dev-server": "^0.2.5",
+    "@web/test-runner-framework": "^0.1.0",
+    "@web/test-runner-mocha": "^0.1.0",
+    "mocha": "^7.2.0",
+    "typescript": "^3.9.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
