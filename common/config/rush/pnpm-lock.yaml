@@ -1,8 +1,6 @@
 dependencies:
   '@bundled-es-modules/chai': 4.2.2
-  '@open-wc/dedupe-mixin': 1.2.17
-  '@open-wc/scoped-elements': 1.1.1
-  '@open-wc/testing-helpers': 1.8.2
+  '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
   '@rush-temp/active-state-mixin': 'file:projects/active-state-mixin.tgz'
   '@rush-temp/browser-utils': 'file:projects/browser-utils.tgz'
   '@rush-temp/checked-state-mixin': 'file:projects/checked-state-mixin.tgz'
@@ -35,10 +33,6 @@ dependencies:
   '@vaadin/vaadin-themable-mixin': 1.6.1
   '@vaadin/vaadin-usage-statistics': 2.1.0
   '@web/test-runner': 0.2.5
-  '@web/test-runner-chrome': 0.2.1
-  '@web/test-runner-cli': 0.1.7
-  '@web/test-runner-core': 0.2.3
-  '@web/test-runner-dev-server': 0.2.5
   '@web/test-runner-framework': 0.1.0
   '@web/test-runner-mocha': 0.1.0
   lit-element: 2.3.1
@@ -1009,14 +1003,14 @@ packages:
     dev: false
     resolution:
       integrity: sha512-Fx9bFOA14xGeNFQpSeyp6GmqW1vJyETr1qlem9pDS3hlK/HpWUtoBRAPyo4yexjY+aeSsenUeAYDXzPWQgeWXw==
-  /@open-wc/testing-helpers/1.8.2:
+  /@open-wc/testing-helpers/1.7.2_lit-html@1.2.1:
     dependencies:
-      '@open-wc/scoped-elements': 1.1.1
-      lit-element: 2.3.1
       lit-html: 1.2.1
     dev: false
+    peerDependencies:
+      lit-html: ^1.0.0
     resolution:
-      integrity: sha512-zxfZZOS4/30sceo7RHGHUxhxSe2F+NUsKYPK7EIATSJbQ1j9/3HIR+9PqYnZcRI3DT3CdPKQka/60dUJPH1kiQ==
+      integrity: sha512-ilUdoObOTu9IO8cbv7MiLGEpmoIl6+31OFblOfq7UseqL8+KId88spqhUFc3UToX429HHypsUVuKHFfEST3oXw==
   /@polymer/polymer/3.4.1:
     dependencies:
       '@webcomponents/shadycss': 1.10.0
@@ -4118,7 +4112,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@vaadin/mixin-utils': 0.1.0
@@ -4136,7 +4130,7 @@ packages:
     dev: false
     name: '@rush-temp/active-state-mixin'
     resolution:
-      integrity: sha512-f2Z7g0CdgjVFKdMAoOVe0kLCcdUEnCIM3v3+/0Twt93/1MyVlhy00H5ipgaCd5YFAYP8wiwgnS/vlNWmkxyIlw==
+      integrity: sha512-tmmu65Y0Fx365k/dY637wWD++xkldNRcX+LkLMkK/MozwVqAKAKwN9I7yssKRakO2UHOVuK+vSMUEiLS4mGQCg==
       tarball: 'file:projects/active-state-mixin.tgz'
     version: 0.0.0
   'file:projects/browser-utils.tgz':
@@ -4158,7 +4152,7 @@ packages:
     dev: false
     name: '@rush-temp/browser-utils'
     resolution:
-      integrity: sha512-i2c9Ymn8j3qk/yCYA1+JzXIoTfKK4xeFTVZ2ve+1Q2CY/thzd1uTZncYWXpDQjlbVXXMZ8gkfnL7+iTYZyUsmg==
+      integrity: sha512-dXMnOp4A+Syrc/uTe6UtNqqmHvEFlp4N3LCL9E3ESSgQQpQmaD2NHKCS4MlOdvJv5yIAMZg0YIodyLgNuzZ1xA==
       tarball: 'file:projects/browser-utils.tgz'
     version: 0.0.0
   'file:projects/checked-state-mixin.tgz':
@@ -4166,7 +4160,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
@@ -4187,7 +4181,7 @@ packages:
     dev: false
     name: '@rush-temp/checked-state-mixin'
     resolution:
-      integrity: sha512-9oDHo3ueaSN9H8ZLjxm+jlODb6ZkActT6eaHR1Ams9M21Z6jJD4A7TxoMdl1BKcXwo2LaBV1C8zKXtAaeYElLw==
+      integrity: sha512-MKBVdxWIg7WTHeERwXmTlH1/q8ONHbEwj5S/dBWEc5t733u9GMP60/m6LOMU2ehURIaht0VSHKECw+9XTNfsGA==
       tarball: 'file:projects/checked-state-mixin.tgz'
     version: 0.0.0
   'file:projects/control-state-mixin.tgz':
@@ -4195,7 +4189,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
@@ -4216,7 +4210,7 @@ packages:
     dev: false
     name: '@rush-temp/control-state-mixin'
     resolution:
-      integrity: sha512-xQrFkeRpe1pm4RLNst/W/bpoa2gaOle9/qxVLMjBqsDA1Z30ivDgMR0tMDMdUG4N1DTuWgJD83FbS/aypMxCkg==
+      integrity: sha512-CDFYbAXS/v+CdpnYi//GL9AAcxM+QSuy4VKQwpZvgUTKn/tpI4pTJl3pCFEIPC/EXbR2TZrVjAbtQanDwdWB3A==
       tarball: 'file:projects/control-state-mixin.tgz'
     version: 0.0.0
   'file:projects/direction-mixin.tgz':
@@ -4239,7 +4233,7 @@ packages:
     dev: false
     name: '@rush-temp/direction-mixin'
     resolution:
-      integrity: sha512-wzuar7Knxpm6i0oJ5hwlhIAUi4RstgFACNDvYdv7RtAF+DAqB8AWqwotCAXQX3hJudWYhzBsndcDNtDuq1KSZQ==
+      integrity: sha512-nEPxHhaCjXZl/80q9ITdHjUh/V+SUZKryG7lIFjV9VLSJfni5AZa0K9zkGnxQkrh1c604ZQeKNPltQma8M+vWQ==
       tarball: 'file:projects/direction-mixin.tgz'
     version: 0.0.0
   'file:projects/disabled-state-mixin.tgz':
@@ -4247,7 +4241,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
@@ -4268,7 +4262,7 @@ packages:
     dev: false
     name: '@rush-temp/disabled-state-mixin'
     resolution:
-      integrity: sha512-xf1nxOR1p0zNkkRuTYTf6/i1GDmL50ePANyokqjMV/jROfBSxVdJ9Zx5/bq0IkyodBF57iYRFhU3oHx6ug9FSA==
+      integrity: sha512-kUAWjmfnVpsukob0r+H+kRPxY+/Msd6D4BUV20jgUsWeMxOfDUCEYtXRbjQPcmF/vI/dkFdaYrkHoq0ppT7SeQ==
       tarball: 'file:projects/disabled-state-mixin.tgz'
     version: 0.0.0
   'file:projects/down-up-mixin.tgz':
@@ -4276,7 +4270,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
@@ -4296,7 +4290,7 @@ packages:
     dev: false
     name: '@rush-temp/down-up-mixin'
     resolution:
-      integrity: sha512-9o0WghQO3K5xLWwL+gJW0XjwxkydROTcZhELDroiuNcbgsUvHqx0pxWI0PFG2zPl1him+s/JyF+92/nb5ME2WQ==
+      integrity: sha512-GQ8sCnS3PmEI8eAIqG/MysjhQ5y6BK24f62dElfNBHeZEmrOdJB/dIXI7NcyuYjNs5gF/UuunKsJqL5PywYVQQ==
       tarball: 'file:projects/down-up-mixin.tgz'
     version: 0.0.0
   'file:projects/element-base.tgz':
@@ -4304,7 +4298,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@polymer/polymer': 3.4.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
@@ -4327,7 +4321,7 @@ packages:
     dev: false
     name: '@rush-temp/element-base'
     resolution:
-      integrity: sha512-t6igRVGKvsj2Tuf20/7hwuP46648nYMLw910OVDHJMJh0oa4H1MlXqQY9eUk7I4mBfHl0YO6lJ4X1FNYOQdJEQ==
+      integrity: sha512-pkh+ujHBeehlLHaebapTBYVDvvXzCoD8UY+G2VTTeBvl36lLV3xBYaS2v56aksFuUSEAay3o21Uk9APCbInbQQ==
       tarball: 'file:projects/element-base.tgz'
     version: 0.0.0
   'file:projects/focus-visible-mixin.tgz':
@@ -4335,7 +4329,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@vaadin/mixin-utils': 0.1.0
@@ -4354,7 +4348,7 @@ packages:
     dev: false
     name: '@rush-temp/focus-visible-mixin'
     resolution:
-      integrity: sha512-RMk1qzs0MulnL+NFPDeUEb+YDa1Nm+yQHDZp9XPUBua53ZVeAQZeMP/hiD9KtXzkECCodzzDAoA/ZBdsrLZO1g==
+      integrity: sha512-5WOZnQudyFwVkwVCpHmDZZpXx4ydOYoWy3E+QiRkps1yMNQUP5efU0782e/0jCStbUmXBrEkcsKHdmbcvrmGxA==
       tarball: 'file:projects/focus-visible-mixin.tgz'
     version: 0.0.0
   'file:projects/keyboard-direction-mixin.tgz':
@@ -4362,7 +4356,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@vaadin/mixin-utils': 0.1.0
@@ -4380,7 +4374,7 @@ packages:
     dev: false
     name: '@rush-temp/keyboard-direction-mixin'
     resolution:
-      integrity: sha512-XRsGVREg22xSMAKauE/Y+2fJTGriWP/PHv7gt+FI4KgdqP5WklOgKSutour13mQZCik4sXDRdPZz41YmDqGkJQ==
+      integrity: sha512-xcUaM9tktQH7un90fa6Cmw6QD8INHOLLBdG7bXkDaXbhwNhG8l3BEUA0vgSg3KvC2/oc7iKyI/DX2orZul5SDA==
       tarball: 'file:projects/keyboard-direction-mixin.tgz'
     version: 0.0.0
   'file:projects/keyboard-mixin.tgz':
@@ -4388,7 +4382,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
@@ -4408,7 +4402,7 @@ packages:
     dev: false
     name: '@rush-temp/keyboard-mixin'
     resolution:
-      integrity: sha512-vs3DFCLWwhOLi+pbT1mK/Zpg6imb3nEgXTyifIfj+PG2Tuy6HSPeCHDHwU3teNYrvQM8epf9jQi7TuhJnxG+jg==
+      integrity: sha512-5lVx3hTCBkeeFUC2e2Basg59nFG3F4IMDEODj1XTOz9PB5g/Ch3HSbXvIAMZiAGk5h2sphHrzfcIA4sfpIGgCA==
       tarball: 'file:projects/keyboard-mixin.tgz'
     version: 0.0.0
   'file:projects/media-query-mixin.tgz':
@@ -4416,7 +4410,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@web/test-runner': 0.2.5
@@ -4434,7 +4428,7 @@ packages:
     dev: false
     name: '@rush-temp/media-query-mixin'
     resolution:
-      integrity: sha512-QaPeuy8IvuB8IUlFC5TqvBBeId6igPZdo5SYqgh/gqJ+PlvVMdgJ8WaABPr9OTQpUWfG19xmI7iIwTWQELz6lw==
+      integrity: sha512-P4uZIoWCIe4tlcOEVTujn97bnPjZzQt7ihkD++MAPsC+H6H4MGbggyY1+sQaLSGvXuvCViWcmy5bC42udqRjvw==
       tarball: 'file:projects/media-query-mixin.tgz'
     version: 0.0.0
   'file:projects/mixin-utils.tgz':
@@ -4456,7 +4450,7 @@ packages:
     dev: false
     name: '@rush-temp/mixin-utils'
     resolution:
-      integrity: sha512-rEDHnRvwS7ZkXcoF0PlGDnQvHbzMWOXQFWPXIMvv2qZViCJZOWRFcV3qdLAZLsVrl6/oHg+h8f+w3sRG1/i1FQ==
+      integrity: sha512-s4LINlQBd3DKYdx0DMqPu5w00ikn2/1U5ibmDDa8CtgNbbH6OYaGH8PoTGUkn6XdJMI3WkIQ8SeIJYLXFlr/hA==
       tarball: 'file:projects/mixin-utils.tgz'
     version: 0.0.0
   'file:projects/orientation-mixin.tgz':
@@ -4464,7 +4458,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@vaadin/mixin-utils': 0.1.0
@@ -4483,7 +4477,7 @@ packages:
     dev: false
     name: '@rush-temp/orientation-mixin'
     resolution:
-      integrity: sha512-/jd5LotLeX7L4dGMmDyeCJ1wAjTtqotusmMv5dI/lFDMHIYwGqTr/L/8kOwq3eAIvzAba7QX96FYHSSCquX3Dw==
+      integrity: sha512-NWZs8D2PgRnSlTR/7U9M7ZwzO69OfdVr7MKlYpdSV7MnpV4ZS5k424RDwdWv5Zi3h6t8JfhDy9dZbDpzEjB8OA==
       tarball: 'file:projects/orientation-mixin.tgz'
     version: 0.0.0
   'file:projects/resizable-mixin.tgz':
@@ -4491,7 +4485,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
@@ -4511,7 +4505,7 @@ packages:
     dev: false
     name: '@rush-temp/resizable-mixin'
     resolution:
-      integrity: sha512-/WZPV71+XS/zuqAXaNhXSoMCMp40cT6hcGYbE+NDVh8ECVg25QouN5FpSz44SxneFBFBocB/Z/fNH9kfCWJF6g==
+      integrity: sha512-1D7CtqI36CeR9m5Z0u4wd9lriokgc6XHvyeunKHpvK4aaI8407Pa8fxMs//UMhM5jps9Mbutr03mRxMCYnyMUQ==
       tarball: 'file:projects/resizable-mixin.tgz'
     version: 0.0.0
   'file:projects/roving-tabindex-mixin.tgz':
@@ -4519,7 +4513,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
@@ -4539,7 +4533,7 @@ packages:
     dev: false
     name: '@rush-temp/roving-tabindex-mixin'
     resolution:
-      integrity: sha512-7u7J0a17bIX+74RfJDm7/Se/Ok6hwp7V483AvRyyGNMA3bz3w1YgvnfMXThXLfF1d5JUN/POTcjAofYoAXRsWQ==
+      integrity: sha512-lxOtw3Hg0O2tOdhK6QrJN4TG276NC79KgS2tZkU6zy1UdvRJ8i5TUNk4pjaX5rVpFpODGrhBoZZdkk+u0f7Vqw==
       tarball: 'file:projects/roving-tabindex-mixin.tgz'
     version: 0.0.0
   'file:projects/selected-state-mixin.tgz':
@@ -4547,7 +4541,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@vaadin/mixin-utils': 0.1.0
@@ -4566,7 +4560,7 @@ packages:
     dev: false
     name: '@rush-temp/selected-state-mixin'
     resolution:
-      integrity: sha512-Di8nRcNgk1MbxZZ7IzPB/64Tq8mMppDPayMJkH6eFd5KyqDjrSz7clriWS9SNbhJ7Yxfm8F9vDMQDKZ8zHSCZQ==
+      integrity: sha512-oe9WFG6cpGM3tHflmfcfCEdOs6Oo5onIFPdm9qg+TiETK3DutlxHIOfx1EjOnpFCbAkCNrXlSVnM/Y+uEyd01w==
       tarball: 'file:projects/selected-state-mixin.tgz'
     version: 0.0.0
   'file:projects/selection-in-view-mixin.tgz':
@@ -4574,7 +4568,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@vaadin/mixin-utils': 0.1.0
@@ -4594,7 +4588,7 @@ packages:
     dev: false
     name: '@rush-temp/selection-in-view-mixin'
     resolution:
-      integrity: sha512-3F2mhZFZNqRzbje+ZYLcOCMKA9jQjDo6a0txNecvAhYoszs//+tb5+Dc4I0KGEx73wpzBNV+4YoYSmdsJoNJgg==
+      integrity: sha512-caOl7zJwwVEWuZsJGGG5VqaO+ieJoQaX56dy/bjEfHS1FEX/a+OKOMD1ntWEpYtSXNmhn3QihO8eTlYUyagX2A==
       tarball: 'file:projects/selection-in-view-mixin.tgz'
     version: 0.0.0
   'file:projects/single-selection-mixin.tgz':
@@ -4602,7 +4596,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
@@ -4623,7 +4617,7 @@ packages:
     dev: false
     name: '@rush-temp/single-selection-mixin'
     resolution:
-      integrity: sha512-6VrN9lOsdM2yegAtSSs/AQgtCOn+lPdGjFiOcDsALahmksLznKl55gJ8gH+2x5JfKL4WfJ08GhQx50WfS4nNNQ==
+      integrity: sha512-aCN6XNI+v99WFqyAi3ZP08n5AHiJxg/1YaSMd611oXrzNTve3pVPR9LsVxe//T9spQApfGxZRTksC17mxbHQYA==
       tarball: 'file:projects/single-selection-mixin.tgz'
     version: 0.0.0
   'file:projects/slotted-items-mixin.tgz':
@@ -4631,7 +4625,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
@@ -4652,7 +4646,7 @@ packages:
     dev: false
     name: '@rush-temp/slotted-items-mixin'
     resolution:
-      integrity: sha512-qzzUouwI0fbcY2kRG7kpRBq7frlJixwfsCHN8x5/QH8xsQTSutf/MtqAxA48ZUvE1IHacxT3HJnJ2YFv8ifv3g==
+      integrity: sha512-BWoghj+tEr4VDHnzhApPDaqbpCKQpXXykxyLtj2lTMs8fSnkB/DnWlYxzL+BWCWWj15oeucC2LrTtCvhY0ASGg==
       tarball: 'file:projects/slotted-items-mixin.tgz'
     version: 0.0.0
   'file:projects/slotted-label-mixin.tgz':
@@ -4660,7 +4654,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@vaadin/mixin-utils': 0.1.0
@@ -4678,7 +4672,7 @@ packages:
     dev: false
     name: '@rush-temp/slotted-label-mixin'
     resolution:
-      integrity: sha512-idXDbQeBnnQSx+xL4v9uUyZH/8KV9h93ZLtOmqJ5j+lvQrpjvITMpD64X2eCYfYXBXAxcgTj0nCnG+d9vRo8dg==
+      integrity: sha512-FJYMnpQRRZPS+47LeOwMbZ875fsSoJtac5a70zOXs7ECJ9tb1PVVsWRGYMMfXrMLm/Y/yC8KvFw82vl4r4xHAA==
       tarball: 'file:projects/slotted-label-mixin.tgz'
     version: 0.0.0
   'file:projects/test-helpers.tgz':
@@ -4695,7 +4689,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@polymer/polymer': 3.4.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
@@ -4715,7 +4709,7 @@ packages:
     dev: false
     name: '@rush-temp/themable-element'
     resolution:
-      integrity: sha512-d3zSyhQhSilspPSsb1tG45z+8N99/uD3Uh9H9LsWOVVC97ZdB4f4t1dmdH53RouPJbxC3wdS9eYkUIjYhabAkQ==
+      integrity: sha512-RkVppaKTYoJpJDPwvVesRcfg5IqXGSc9qs+aBupW6mu7MqkmPUt0rMyYB04X0w2ZDGbmJG5uEh9UudZEqHIqVw==
       tarball: 'file:projects/themable-element.tgz'
     version: 0.0.0
   'file:projects/track-event-mixin.tgz':
@@ -4723,7 +4717,7 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@open-wc/dedupe-mixin': 1.2.17
       '@open-wc/scoped-elements': 1.1.1
-      '@open-wc/testing-helpers': 1.8.2
+      '@open-wc/testing-helpers': 1.7.2_lit-html@1.2.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@vaadin/browser-utils': 0.1.1
@@ -4742,15 +4736,13 @@ packages:
     dev: false
     name: '@rush-temp/track-event-mixin'
     resolution:
-      integrity: sha512-hZHmKqE1WMGFWZMEbP3ZH6Ca2lAAWUXzcdi0hAzZUBOe8aY3b6DmprtPgCzvlwO2plyW5ExvYnCldko4JBgeOQ==
+      integrity: sha512-lDa9GqY9S4o82BOQ0mzkCZmJn6/DD9gowKWakn6fePOGf6UCJTZZ7UTegfVfLWcuc9f/rtn1M3zpPyR00twRnA==
       tarball: 'file:projects/track-event-mixin.tgz'
     version: 0.0.0
 registry: ''
 specifiers:
   '@bundled-es-modules/chai': ^4.2.2
-  '@open-wc/dedupe-mixin': ^1.2.17
-  '@open-wc/scoped-elements': ^1.1.1
-  '@open-wc/testing-helpers': ^1.2.1
+  '@open-wc/testing-helpers': ~1.7.2
   '@rush-temp/active-state-mixin': 'file:./projects/active-state-mixin.tgz'
   '@rush-temp/browser-utils': 'file:./projects/browser-utils.tgz'
   '@rush-temp/checked-state-mixin': 'file:./projects/checked-state-mixin.tgz'
@@ -4783,10 +4775,6 @@ specifiers:
   '@vaadin/vaadin-themable-mixin': ^1.6.1
   '@vaadin/vaadin-usage-statistics': ^2.1.0
   '@web/test-runner': ^0.2.5
-  '@web/test-runner-chrome': ^0.2.1
-  '@web/test-runner-cli': ^0.1.7
-  '@web/test-runner-core': ^0.2.3
-  '@web/test-runner-dev-server': ^0.2.5
   '@web/test-runner-framework': ^0.1.0
   '@web/test-runner-mocha': ^0.1.0
   lit-element: ^2.0.0
