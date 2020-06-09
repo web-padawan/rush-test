@@ -1076,7 +1076,7 @@ packages:
       integrity: sha512-+iTbntw2IZPb/anVDbypzfQa+ay64MW0Zo8aJ8gZPWMMK6/OubMVb6lUPMagqjOPnmtauXnFCACVl3O7ogjeqQ==
   /@types/accepts/1.3.5:
     dependencies:
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
     dev: false
     resolution:
       integrity: sha512-jOdnI/3qTpHABjM5cx1Hc0sKsPoYCp+DP/GJRGtDlPd7fiV9oXGGIcjW/ZOxLIvjGz8MA+uMZI9metHlgqbgwQ==
@@ -1112,7 +1112,7 @@ packages:
   /@types/body-parser/1.19.0:
     dependencies:
       '@types/connect': 3.4.33
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
     dev: false
     resolution:
       integrity: sha512-W98JrE0j2K78swW4ukqMleo8R7h/pFETjM2DQ90MF6XK2i4LO4W3gQ71Lt4w3bfm2EvVSyWHplECvB5sK22yFQ==
@@ -1141,7 +1141,7 @@ packages:
       integrity: sha512-t7uW6eFafjO+qJ3BIV2gGUyZs27egcNRkUdalkud+Qa3+kg//f129iuOFivHDXQ+vnU3fDXuwgv0cqMCbcE8sw==
   /@types/co-body/5.1.0:
     dependencies:
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
       '@types/qs': 6.9.3
     dev: false
     resolution:
@@ -1160,7 +1160,7 @@ packages:
       integrity: sha512-/xUgezxxYePeXhg5S04hUjxG9JZi+rJTs1+4NwpYPfSaS7BeDa6tVJkH6lN9Cb6rl8d24Fi2uX0s0Ngg2JT6gg==
   /@types/connect/3.4.33:
     dependencies:
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
     dev: false
     resolution:
       integrity: sha512-2+FrkXY4zllzTNfJth7jOqEHC+enpLeGslEhpnTAkg21GkRrWV4SsAtqchtT4YS9/nODBU2/ZfsBY2X4J/dX7A==
@@ -1173,7 +1173,7 @@ packages:
       '@types/connect': 3.4.33
       '@types/express': 4.17.6
       '@types/keygrip': 1.0.2
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
     dev: false
     resolution:
       integrity: sha512-oTGtMzZZAVuEjTwCjIh8T8FrC8n/uwy+PG0yTvQcdZ7etoel7C7/3MSd7qrukENTgQtotG7gvBlBojuVs7X5rw==
@@ -1191,13 +1191,13 @@ packages:
       integrity: sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
   /@types/etag/1.8.0:
     dependencies:
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
     dev: false
     resolution:
       integrity: sha512-EdSN0x+Y0/lBv7YAb8IU4Jgm6DWM+Bqtz7o5qozl96fzaqdqbdfHS5qjdpFeIv7xQ8jSLyjMMNShgYtMajEHyQ==
   /@types/express-serve-static-core/4.17.7:
     dependencies:
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
       '@types/qs': 6.9.3
       '@types/range-parser': 1.2.3
     dev: false
@@ -1229,7 +1229,7 @@ packages:
   /@types/koa-compress/2.0.9:
     dependencies:
       '@types/koa': 2.11.3
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
     dev: false
     resolution:
       integrity: sha512-1Sa9OsbHd2N2N7gLpdIRHe8W99EZbfIR31D7Iisx16XgwZCnWUtGXzXQejhu74Y1pE/wILqBP6VL49ch/MVpZw==
@@ -1261,7 +1261,7 @@ packages:
       '@types/http-assert': 1.5.1
       '@types/keygrip': 1.0.2
       '@types/koa-compose': 3.2.5
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
     dev: false
     resolution:
       integrity: sha512-ABxVkrNWa4O/Jp24EYI/hRNqEVRlhB9g09p48neQp4m3xL1TJtdWk2NyNQSMCU45ejeELMQZBYyfstyVvO2H3Q==
@@ -1281,10 +1281,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-ZvO2tAcjmMi8V/5Z3JsyofMe3hasRcaw88cto5etSVMwVQfeivGAlEYmaQgceUSVYFofVjT+ioHsATjdWcFt1w==
-  /@types/node/14.0.11:
+  /@types/node/14.0.12:
     dev: false
     resolution:
-      integrity: sha512-lCvvI24L21ZVeIiyIUHZ5Oflv1hhHQ5E1S25IRlKIXaRkVgmXpJMI3wUJkmym2bTbCe+WoIibQnMVAU3FguaOg==
+      integrity: sha512-/sjzehvjkkpvLpYtN6/2dv5kg41otMGuHQUt9T2aiAuIfleCQRQHXXzF1eAw/qkZTj5Kcf4JSTf7EIizHocy6Q==
   /@types/path-is-inside/1.0.0:
     dev: false
     resolution:
@@ -1297,7 +1297,7 @@ packages:
       integrity: sha512-JvoEb7KgEkUet009ZDrtpUER3hheXoHgQByuYpJZ5WWT7LWwMH+0NTqGQXGgoOKzs+G5NA1T4DZwXK79Bhnejw==
   /@types/puppeteer/3.0.0:
     dependencies:
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
     dev: false
     resolution:
       integrity: sha512-59+fkfHHXHzX5rgoXIMnZyzum7ZLx/Wc3fhsOduFThpTpKbzzdBHMZsrkKGLunimB4Ds/tI5lXTRLALK8Mmnhg==
@@ -1311,7 +1311,7 @@ packages:
       integrity: sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==
   /@types/resolve/0.0.8:
     dependencies:
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
     dev: false
     resolution:
       integrity: sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
@@ -1334,28 +1334,17 @@ packages:
       integrity: sha512-yYezQwGWty8ziyYLdZjwxyMb0CZR49h8JALHGrxjQHWlqGgc8kLdHEgWrgL0uZ29DMvEVBDnHU2Wg36zKSIUtA==
   /@types/whatwg-url/6.4.0:
     dependencies:
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
     dev: false
     resolution:
       integrity: sha512-tonhlcbQ2eho09am6RHnHOgvtDfDYINd5rgxD+2YSkKENooVCFsWizJz139MQW/PV8FfClyKrNe9ZbdHrSCxGg==
   /@types/yauzl/2.9.1:
     dependencies:
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
     dev: false
     optional: true
     resolution:
       integrity: sha512-A1b8SU4D10uoPjwb0lnHmmu8wZhR9d+9o2PKBQT2jU5YPTKsxac6M2qGAdY7VcL+dHHhARVUDmeg0rOrcd9EjA==
-  /@vaadin/browser-utils/0.1.1:
-    dev: false
-    resolution:
-      integrity: sha512-jwM8YPz6adJVc1K4WD/m/eTEoSkrO17QqU/4ll/ljBIs5feSYQ8+4EO1nm+kiS1168F7QbUINYF/MsAVS87uvw==
-  /@vaadin/mixin-utils/0.1.0:
-    dependencies:
-      lit-element: 2.3.1
-      lit-html: 1.2.1
-    dev: false
-    resolution:
-      integrity: sha512-VutGmWCgyUc34OWnd953leze+Ve7N9MI/tT+SiVc4yWHgvnoC1qa/xJAKz2gaiCWUYB2PJFcfo+a2CzwcfXblQ==
   /@vaadin/vaadin-development-mode-detector/2.0.4:
     dev: false
     resolution:
@@ -1397,9 +1386,9 @@ packages:
       '@types/camelcase': 5.2.0
       '@types/command-line-args': 5.0.0
       '@types/diff': 4.0.2
-      '@web/test-runner-core': 0.2.3
+      '@web/test-runner-core': 0.2.4
       camelcase: 6.0.0
-      chalk: 4.0.0
+      chalk: 4.1.0
       cli-cursor: 3.1.0
       command-line-args: 5.1.1
       diff: 4.0.2
@@ -1411,7 +1400,7 @@ packages:
       node: '>=10.0.0'
     resolution:
       integrity: sha512-4sIV3LuWGOJZqTnYbFXIKaoF/zyCawNEFRd2Cr1ShZmCgkvxOCOB8C8BKSFvkGTgPtyKt6+qcA97ZMxXCnRGLQ==
-  /@web/test-runner-core/0.2.3:
+  /@web/test-runner-core/0.2.4:
     dependencies:
       istanbul-lib-coverage: 3.0.0
       uuid: 8.1.0
@@ -1419,11 +1408,11 @@ packages:
     engines:
       node: '>=10.0.0'
     resolution:
-      integrity: sha512-Sm1Op6EEju4r7HxPUqs1ZOO20UDNuqfAxRKOfaIl/GCrNOU49b8JJD5EsxPo5BycjTyUNsCWmdS932aYNDkmNg==
+      integrity: sha512-/xNxrifLxPEaJLwqryvvkB/OGLnwegg1ZPpJ4Cmj1DoYlotRPg3EaVkrvbSvM4oFdKB0k3wPHSHlosLLub+/rg==
   /@web/test-runner-dev-server/0.2.5:
     dependencies:
       '@types/co-body': 5.1.0
-      '@web/test-runner-core': 0.2.3
+      '@web/test-runner-core': 0.2.4
       co-body: 6.0.0
       deepmerge: 4.2.2
       dependency-graph: 0.9.0
@@ -1453,7 +1442,7 @@ packages:
     dependencies:
       '@web/test-runner-chrome': 0.2.1
       '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
+      '@web/test-runner-core': 0.2.4
       '@web/test-runner-dev-server': 0.2.5
       '@web/test-runner-mocha': 0.1.0
       command-line-args: 5.1.1
@@ -1654,7 +1643,7 @@ packages:
   /browserslist/4.12.0:
     dependencies:
       caniuse-lite: 1.0.30001079
-      electron-to-chromium: 1.3.464
+      electron-to-chromium: 1.3.465
       node-releases: 1.1.58
       pkg-up: 2.0.0
     dev: false
@@ -1739,7 +1728,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
-  /chalk/4.0.0:
+  /chalk/4.1.0:
     dependencies:
       ansi-styles: 4.2.1
       supports-color: 7.1.0
@@ -1747,7 +1736,7 @@ packages:
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==
+      integrity: sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
   /chokidar/3.3.0:
     dependencies:
       anymatch: 3.1.1
@@ -1786,7 +1775,7 @@ packages:
       integrity: sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==
   /chrome-launcher/0.13.3:
     dependencies:
-      '@types/node': 14.0.11
+      '@types/node': 14.0.12
       escape-string-regexp: 1.0.5
       is-wsl: 2.2.0
       lighthouse-logger: 1.2.0
@@ -2054,10 +2043,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
-  /electron-to-chromium/1.3.464:
+  /electron-to-chromium/1.3.465:
     dev: false
     resolution:
-      integrity: sha512-Oo+0+CN9d2z6FToQW6Hwvi9ez09Y/usKwr0tsDsyg43a871zVJCi1nR0v03djLbRNcaCKjtrnVf2XJhTxEpPCg==
+      integrity: sha512-K/lUeT3NLAsJ5SHRDhK3/zd0tw7OUllYD8w+fTOXm6ljCPsp2qq+vMzxpLo8u1M27ZjZAjRbsA6rirvne2nAMQ==
   /emoji-regex/7.0.3:
     dev: false
     resolution:
@@ -4108,22 +4097,13 @@ packages:
   'file:projects/active-state-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       typescript: 3.9.5
     dev: false
     name: '@rush-temp/active-state-mixin'
@@ -4138,13 +4118,7 @@ packages:
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
-      mocha: 7.2.0
       sinon: 9.0.2
       typescript: 3.9.5
     dev: false
@@ -4156,23 +4130,14 @@ packages:
   'file:projects/checked-state-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       sinon: 9.0.2
       tslib: 2.0.0
       typescript: 3.9.5
@@ -4185,23 +4150,14 @@ packages:
   'file:projects/control-state-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       sinon: 9.0.2
       tslib: 2.0.0
       typescript: 3.9.5
@@ -4216,17 +4172,10 @@ packages:
       '@bundled-es-modules/chai': 4.2.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       typescript: 3.9.5
     dev: false
     name: '@rush-temp/direction-mixin'
@@ -4237,23 +4186,14 @@ packages:
   'file:projects/disabled-state-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       sinon: 9.0.2
       tslib: 2.0.0
       typescript: 3.9.5
@@ -4266,23 +4206,14 @@ packages:
   'file:projects/down-up-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       sinon: 9.0.2
       typescript: 3.9.5
     dev: false
@@ -4294,8 +4225,6 @@ packages:
   'file:projects/element-base.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@polymer/polymer': 3.4.1
       '@types/chai': 4.2.11
@@ -4305,15 +4234,9 @@ packages:
       '@vaadin/vaadin-element-mixin': 2.4.1
       '@vaadin/vaadin-usage-statistics': 2.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       sinon: 9.0.2
       typescript: 3.9.5
     dev: false
@@ -4325,22 +4248,13 @@ packages:
   'file:projects/focus-visible-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       tslib: 2.0.0
       typescript: 3.9.5
     dev: false
@@ -4352,22 +4266,13 @@ packages:
   'file:projects/keyboard-direction-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       typescript: 3.9.5
     dev: false
     name: '@rush-temp/keyboard-direction-mixin'
@@ -4378,23 +4283,14 @@ packages:
   'file:projects/keyboard-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       sinon: 9.0.2
       typescript: 3.9.5
     dev: false
@@ -4406,21 +4302,13 @@ packages:
   'file:projects/media-query-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       tslib: 2.0.0
       typescript: 3.9.5
     dev: false
@@ -4435,15 +4323,9 @@ packages:
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       typescript: 3.9.5
     dev: false
     name: '@rush-temp/mixin-utils'
@@ -4454,22 +4336,13 @@ packages:
   'file:projects/orientation-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       tslib: 2.0.0
       typescript: 3.9.5
     dev: false
@@ -4481,22 +4354,14 @@ packages:
   'file:projects/resizable-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       resize-observer-polyfill: 1.5.1
       sinon: 9.0.2
       typescript: 3.9.5
@@ -4509,23 +4374,14 @@ packages:
   'file:projects/roving-tabindex-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       sinon: 9.0.2
       typescript: 3.9.5
     dev: false
@@ -4537,22 +4393,13 @@ packages:
   'file:projects/selected-state-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       tslib: 2.0.0
       typescript: 3.9.5
     dev: false
@@ -4564,23 +4411,14 @@ packages:
   'file:projects/selection-in-view-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
-      '@vaadin/mixin-utils': 0.1.0
       '@vaadin/vaadin-element-mixin': 2.4.1
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       tslib: 2.0.0
       typescript: 3.9.5
     dev: false
@@ -4592,23 +4430,14 @@ packages:
   'file:projects/single-selection-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       sinon: 9.0.2
       tslib: 2.0.0
       typescript: 3.9.5
@@ -4621,23 +4450,14 @@ packages:
   'file:projects/slotted-items-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@types/sinon': 9.0.4
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       sinon: 9.0.2
       tslib: 2.0.0
       typescript: 3.9.5
@@ -4650,22 +4470,13 @@ packages:
   'file:projects/slotted-label-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       typescript: 3.9.5
     dev: false
     name: '@rush-temp/slotted-label-mixin'
@@ -4685,23 +4496,15 @@ packages:
   'file:projects/themable-element.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@polymer/polymer': 3.4.1
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
       '@vaadin/vaadin-themable-mixin': 1.6.1
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       tslib: 2.0.0
       typescript: 3.9.5
     dev: false
@@ -4713,23 +4516,13 @@ packages:
   'file:projects/track-event-mixin.tgz':
     dependencies:
       '@bundled-es-modules/chai': 4.2.2
-      '@open-wc/dedupe-mixin': 1.2.17
-      '@open-wc/scoped-elements': 1.1.1
       '@open-wc/testing-helpers': 1.8.2
       '@types/chai': 4.2.11
       '@types/mocha': 7.0.2
-      '@vaadin/browser-utils': 0.1.1
-      '@vaadin/mixin-utils': 0.1.0
       '@web/test-runner': 0.2.5
-      '@web/test-runner-chrome': 0.2.1
-      '@web/test-runner-cli': 0.1.7
-      '@web/test-runner-core': 0.2.3
-      '@web/test-runner-dev-server': 0.2.5
-      '@web/test-runner-framework': 0.1.0
       '@web/test-runner-mocha': 0.1.0
       lit-element: 2.3.1
       lit-html: 1.2.1
-      mocha: 7.2.0
       typescript: 3.9.5
     dev: false
     name: '@rush-temp/track-event-mixin'
