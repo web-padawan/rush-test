@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "wtr test/*.test.js --preserve-symlinks"
+    "test": "wtr test/*.test.js"
   },
   "dependencies": {
     "@vaadin/disabled-state-mixin": "^0.1.1",
@@ -27,13 +27,11 @@
   },
   "devDependencies": {
     "@bundled-es-modules/chai": "^4.2.2",
-    "@open-wc/testing-helpers": "1.7.2",
+    "@open-wc/testing-helpers": "^1.8.0",
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
     "@web/test-runner": "^0.2.5",
-    "@web/test-runner-framework": "^0.1.0",
     "@web/test-runner-mocha": "^0.1.0",
-    "mocha": "^7.2.0",
     "typescript": "^3.9.5"
   },
   "publishConfig": {
