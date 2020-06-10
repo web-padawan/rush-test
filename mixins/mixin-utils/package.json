@@ -19,7 +19,7 @@
     "test": "wtr test/*.test.js"
   },
   "dependencies": {
-    "lit-element": "^2.0.0",
+    "lit-element": "^2.3.0",
     "lit-html": "^1.0.0"
   },
   "devDependencies": {

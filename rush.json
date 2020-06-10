@@ -455,6 +455,14 @@
       "projectFolder": "mixins/themable-element"
     },
     {
+      "packageName": "@vaadin/vaadin-progress-bar",
+      "projectFolder": "components/progress-bar"
+    },
+    {
+      "packageName": "@vaadin/vaadin-split-layout",
+      "projectFolder": "components/split-layout"
+    },
+    {
       "packageName": "@vaadin/track-event-mixin",
       "projectFolder": "mixins/track-event-mixin"
     }

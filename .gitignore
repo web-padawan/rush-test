@@ -67,6 +67,7 @@ common/temp/
 
 *.d.ts
 *.map
+components/**/*.js
 mixins/**/*.js
 tools/**/*.js
 *.tsbuildinfo
