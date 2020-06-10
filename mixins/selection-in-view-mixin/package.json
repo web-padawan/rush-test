@@ -38,8 +38,8 @@
     "@vaadin/orientation-mixin": "^0.1.2",
     "@vaadin/selected-state-mixin": "^0.1.2",
     "@vaadin/test-helpers": "^0.1.5",
-    "@web/test-runner": "^0.2.5",
-    "@web/test-runner-mocha": "^0.1.0",
+    "@web/test-runner": "^0.2.8",
+    "@web/test-runner-mocha": "^0.1.1",
     "typescript": "^3.9.5"
   },
   "publishConfig": {
