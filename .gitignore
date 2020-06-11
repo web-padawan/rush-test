@@ -23,6 +23,7 @@ node_modules/
 .DS_Store
 
 # Rush temporary files
+common/autoinstallers/*/.npmrc
 common/deploy/
 common/temp/
 **/.rush/temp/

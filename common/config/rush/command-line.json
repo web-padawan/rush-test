@@ -12,12 +12,19 @@
    */
   "commands": [
     {
-      "commandKind": "bulk",
       "name": "test",
+      "commandKind": "bulk",
       "summary": "Run tests",
       "enableParallelism": false,
       "incremental": true,
       "ignoreMissingScript": true
+    },
+    {
+      "name": "prettier",
+      "commandKind": "global",
+      "summary": "Used by the pre-commit Git hook. This command invokes Prettier to reformat staged changes.",
+      "autoinstallerName": "rush-prettier",
+      "shellCommand": "pretty-quick --staged"
     }
     // {
     //   /**
@@ -140,12 +147,6 @@
    * For example, you might define a "--production" parameter for the "rush build" command.
    */
   "parameters": [
-    {
-      "parameterKind": "flag",
-      "longName": "--debug",
-      "description": "Debug tests",
-      "associatedCommands": [ "test" ]
-    }
     // {
     //   /**
     //    * (Required) Determines the type of custom parameter.
