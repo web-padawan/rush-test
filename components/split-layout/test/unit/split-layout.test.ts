@@ -13,11 +13,7 @@ describe('split-layout', () => {
     let tagName: string;
 
     beforeEach(async () => {
-      layout = await fixture(
-        html`
-          <vaadin-split-layout></vaadin-split-layout>
-        `
-      );
+      layout = await fixture(html`<vaadin-split-layout></vaadin-split-layout>`);
       tagName = layout.tagName.toLowerCase();
     });
 

@@ -13,9 +13,7 @@ export interface ControlStateInterface {
 }
 
 export const ControlStateMixin = <
-  T extends Constructor<
-    DisabledStateInterface & FocusVisibleInterface & KeyboardClass & FocusVisibleClass
-  >
+  T extends Constructor<DisabledStateInterface & FocusVisibleInterface & KeyboardClass & FocusVisibleClass>
 >(
   base: T
 ): Constructor<ControlStateInterface> & T => {

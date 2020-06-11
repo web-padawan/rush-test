@@ -6,11 +6,7 @@ describe('progress-bar', () => {
   let progress: VaadinProgressBar;
 
   beforeEach(async () => {
-    progress = await fixture(
-      html`
-        <vaadin-progress-bar></vaadin-progress-bar>
-      `
-    );
+    progress = await fixture(html`<vaadin-progress-bar></vaadin-progress-bar>`);
   });
 
   describe('custom element definition', () => {

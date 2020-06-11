@@ -1,9 +1,5 @@
 import { Constructor } from '@vaadin/mixin-utils';
-import {
-  KeyboardDirectionInterface,
-  getAvailableIndex,
-  isFocusable
-} from '@vaadin/keyboard-direction-mixin';
+import { KeyboardDirectionInterface, getAvailableIndex, isFocusable } from '@vaadin/keyboard-direction-mixin';
 import { KeyboardDirectionClass } from '@vaadin/keyboard-direction-mixin/keyboard-direction-class';
 import { SlottedItemsInterface } from '@vaadin/slotted-items-mixin';
 import { SlottedItemsClass } from '@vaadin/slotted-items-mixin/slotted-items-class';
@@ -22,9 +18,7 @@ export const RovingTabIndexMixin = <
 ): T & Constructor<RovingTabIndexClass> => {
   class RovingTabIndex extends base {
     focus() {
-      const first =
-        (this.querySelector('[tabindex="0"]') as HTMLElement) ||
-        (this.items.length ? this.items[0] : null);
+      const first = (this.querySelector('[tabindex="0"]') as HTMLElement) || (this.items.length ? this.items[0] : null);
       if (first) {
         first.focus();
       }
@@ -35,9 +29,7 @@ export const RovingTabIndexMixin = <
 
       if (items) {
         const { focused } = this;
-        this._setFocusable(
-          focused && this.contains(focused) ? items.indexOf(focused as HTMLElement) : 0
-        );
+        this._setFocusable(focused && this.contains(focused) ? items.indexOf(focused as HTMLElement) : 0);
       }
     }
 

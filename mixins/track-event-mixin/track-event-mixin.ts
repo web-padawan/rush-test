@@ -3,9 +3,7 @@ import { Constructor, applyMixin, wasApplied } from '@vaadin/mixin-utils';
 import { TrackEventClass } from './track-event-class';
 import { addTrackListeners, removeTrackListeners } from './track-event-gesture';
 
-export const TrackEventMixin = <T extends Constructor<LitElement>>(
-  base: T
-): T & Constructor<TrackEventClass> => {
+export const TrackEventMixin = <T extends Constructor<LitElement>>(base: T): T & Constructor<TrackEventClass> => {
   if (wasApplied(TrackEventMixin, base)) {
     return base;
   }

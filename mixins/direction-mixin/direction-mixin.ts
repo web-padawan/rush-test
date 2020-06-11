@@ -1,9 +1,7 @@
 import { Constructor, applyMixin, wasApplied } from '@vaadin/mixin-utils';
 import { DirectionClass } from './direction-class';
 
-export function DirectionMixin<T extends Constructor<DirectionClass>>(
-  base: T
-): Constructor<DirectionClass> & T {
+export function DirectionMixin<T extends Constructor<DirectionClass>>(base: T): Constructor<DirectionClass> & T {
   if (wasApplied(DirectionMixin, base)) {
     return base;
   }

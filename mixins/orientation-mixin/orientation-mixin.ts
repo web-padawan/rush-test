@@ -38,10 +38,7 @@ export const OrientationMixin = <T extends Constructor<DirectionClass>>(
     }
 
     private _setOrientation() {
-      this.setAttribute(
-        'aria-orientation',
-        this.orientation === 'vertical' ? 'vertical' : 'horizontal'
-      );
+      this.setAttribute('aria-orientation', this.orientation === 'vertical' ? 'vertical' : 'horizontal');
     }
   }
 

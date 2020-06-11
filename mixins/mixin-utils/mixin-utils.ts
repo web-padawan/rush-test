@@ -18,10 +18,7 @@ function getPrototypeChain<T>(obj: T) {
 export function wasApplied(mixin: AnyFunction, superClass: Constructor<HTMLElement>): boolean {
   const entries = appliedMixins.get(mixin);
   return entries
-    ? getPrototypeChain(superClass).reduce(
-        (res: boolean, klass) => res || entries.has(klass),
-        false
-      )
+    ? getPrototypeChain(superClass).reduce((res: boolean, klass) => res || entries.has(klass), false)
     : false;
 }
 

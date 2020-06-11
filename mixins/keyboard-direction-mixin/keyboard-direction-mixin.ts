@@ -48,9 +48,7 @@ export const getAvailableIndex = (
 };
 
 export const KeyboardDirectionMixin = <
-  T extends Constructor<
-    SlottedItemsInterface & KeyboardDirectionClass & KeyboardClass & DirectionClass
-  >
+  T extends Constructor<SlottedItemsInterface & KeyboardDirectionClass & KeyboardClass & DirectionClass>
 >(
   base: T
 ): Constructor<KeyboardDirectionInterface> & T => {

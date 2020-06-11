@@ -49,11 +49,7 @@ export const SelectionInViewMixin = <
     }
 
     protected get _normalizedScrollLeft() {
-      return DirHelper.getNormalizedScrollLeft(
-        scrollType,
-        this.getAttribute('dir') || 'ltr',
-        this._scrollTarget
-      );
+      return DirHelper.getNormalizedScrollLeft(scrollType, this.getAttribute('dir') || 'ltr', this._scrollTarget);
     }
 
     protected _scroll(distance: number) {

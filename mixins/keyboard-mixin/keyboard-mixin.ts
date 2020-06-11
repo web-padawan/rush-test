@@ -2,9 +2,7 @@ import { PropertyValues } from 'lit-element';
 import { Constructor, applyMixin, wasApplied } from '@vaadin/mixin-utils';
 import { KeyboardClass } from './keyboard-class';
 
-export function KeyboardMixin<T extends Constructor<KeyboardClass>>(
-  base: T
-): Constructor<KeyboardClass> & T {
+export function KeyboardMixin<T extends Constructor<KeyboardClass>>(base: T): Constructor<KeyboardClass> & T {
   if (wasApplied(KeyboardMixin, base)) {
     return base;
   }

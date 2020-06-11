@@ -20,8 +20,7 @@ class RmElement extends ResizableMixin(LitElement) {
   }
 
   get observer() {
-    return (this.constructor as typeof ResizableClass)
-      ._resizeObserver as ResizeObserver;
+    return (this.constructor as typeof ResizableClass)._resizeObserver as ResizeObserver;
   }
 }
 

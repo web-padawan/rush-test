@@ -24,10 +24,7 @@ describe('VaadinElement', () => {
   });
 
   it('should collect usage statistics once per class', async () => {
-    const spy = sinon.stub(
-      window.Vaadin.usageStatsChecker!,
-      'maybeGatherAndSend'
-    );
+    const spy = sinon.stub(window.Vaadin.usageStatsChecker!, 'maybeGatherAndSend');
 
     class VaadinBar extends VaadinElement {
       static get is() {

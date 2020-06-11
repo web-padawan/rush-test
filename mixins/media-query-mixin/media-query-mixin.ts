@@ -11,9 +11,7 @@ export interface MediaDeclaration {
   readonly media?: string;
 }
 
-export const MediaQueryMixin = <T extends Constructor<LitElement>>(
-  base: T
-): T & Constructor<LitElement> => {
+export const MediaQueryMixin = <T extends Constructor<LitElement>>(base: T): T & Constructor<LitElement> => {
   class MediaQuery extends base {
     private static _mediaQueries: {
       [prop: string]: { query: MediaQueryList; updating?: boolean };

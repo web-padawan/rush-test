@@ -8,7 +8,7 @@ import {
   enterKeyDown,
   enterKeyUp,
   spaceKeyDown,
-  spaceKeyUp,
+  spaceKeyUp
 } from '@vaadin/test-helpers';
 import { DisabledStateMixin } from '@vaadin/disabled-state-mixin';
 import { SlottedItemsMixin } from '@vaadin/slotted-items-mixin';
@@ -109,7 +109,7 @@ describe('SingleSelectionMixin', () => {
     Object.defineProperty(event, 'shiftKey', {
       get() {
         return true;
-      },
+      }
     });
     items[1].dispatchEvent(event);
     await element.updateComplete;
@@ -121,7 +121,7 @@ describe('SingleSelectionMixin', () => {
     Object.defineProperty(event, 'metaKey', {
       get() {
         return true;
-      },
+      }
     });
     items[1].dispatchEvent(event);
     await element.updateComplete;
@@ -133,7 +133,7 @@ describe('SingleSelectionMixin', () => {
     Object.defineProperty(event, 'ctrlKey', {
       get() {
         return true;
-      },
+      }
     });
     items[1].dispatchEvent(event);
     await element.updateComplete;

@@ -7,9 +7,7 @@ export interface SelectedStateInterface {
   selected: boolean;
 }
 
-export const SelectedStateMixin = <
-  T extends Constructor<SelectedStateClass & DisabledStateInterface>
->(
+export const SelectedStateMixin = <T extends Constructor<SelectedStateClass & DisabledStateInterface>>(
   base: T
 ): T & Constructor<SelectedStateInterface> => {
   class SelectedState extends base {

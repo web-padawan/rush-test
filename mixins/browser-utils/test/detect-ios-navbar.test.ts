@@ -18,22 +18,18 @@ describe('iOS navbar', () => {
     sandbox.stub(document.documentElement, 'clientHeight').value(250);
     sandbox.stub(window, 'innerHeight').value(200);
     observeIosNavbar(true);
-    expect(
-      getComputedStyle(document.documentElement).getPropertyValue(
-        '--vaadin-viewport-offset-bottom'
-      )
-    ).to.equal('50px');
+    expect(getComputedStyle(document.documentElement).getPropertyValue('--vaadin-viewport-offset-bottom')).to.equal(
+      '50px'
+    );
   });
 
   it('should set --vaadin-viewport-bottom when resize event is dispatched', () => {
     sandbox.stub(document.documentElement, 'clientHeight').value(275);
     sandbox.stub(window, 'innerHeight').value(200);
     window.dispatchEvent(new CustomEvent('resize'));
-    expect(
-      getComputedStyle(document.documentElement).getPropertyValue(
-        '--vaadin-viewport-offset-bottom'
-      )
-    ).to.equal('75px');
+    expect(getComputedStyle(document.documentElement).getPropertyValue('--vaadin-viewport-offset-bottom')).to.equal(
+      '75px'
+    );
     sandbox.restore();
   });
 
@@ -41,11 +37,7 @@ describe('iOS navbar', () => {
     sandbox.stub(document.documentElement, 'clientHeight').value(200);
     sandbox.stub(window, 'innerHeight').value(200);
     window.dispatchEvent(new CustomEvent('resize'));
-    expect(
-      getComputedStyle(document.documentElement).getPropertyValue(
-        '--vaadin-viewport-offset-bottom'
-      )
-    ).to.equal('');
+    expect(getComputedStyle(document.documentElement).getPropertyValue('--vaadin-viewport-offset-bottom')).to.equal('');
   });
 
   it('should not register another resize event listener when called twice', () => {

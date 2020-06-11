@@ -6,7 +6,7 @@
     "inlineSources": true,
     "module": "esNext",
     "target": "es2018",
-    "lib": [ "esnext", "es2018", "dom" ],
+    "lib": ["esnext", "es2018", "dom"],
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": true,

@@ -2,9 +2,7 @@ import { PropertyValues } from 'lit-element';
 import { Constructor, applyMixin, wasApplied } from '@vaadin/mixin-utils';
 import { DownUpClass } from './down-up-class';
 
-export const DownUpMixin = <T extends Constructor<DownUpClass>>(
-  base: T
-): T & Constructor<DownUpClass> => {
+export const DownUpMixin = <T extends Constructor<DownUpClass>>(base: T): T & Constructor<DownUpClass> => {
   if (wasApplied(DownUpMixin, base)) {
     return base;
   }

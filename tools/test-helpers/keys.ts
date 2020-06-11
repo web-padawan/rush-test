@@ -1,12 +1,7 @@
 /**
  * Returns a keyboard event. This event bubbles and is cancellable.
  */
-export function keyboardEventFor(
-  type: string,
-  keyCode: number,
-  modifiers: string | string[] = [],
-  key?: string
-) {
+export function keyboardEventFor(type: string, keyCode: number, modifiers: string | string[] = [], key?: string) {
   const event = new CustomEvent(type, {
     detail: 0,
     bubbles: true,
@@ -59,12 +54,7 @@ export function keyEventOn(
  * Fires a 'keydown' event on a specific node. This event bubbles and is
  * cancellable.
  */
-export function keyDownOn(
-  target: Element,
-  keyCode: number,
-  modifiers: string | string[] = [],
-  key?: string
-) {
+export function keyDownOn(target: Element, keyCode: number, modifiers: string | string[] = [], key?: string) {
   keyEventOn(target, 'keydown', keyCode, modifiers, key);
 }
 
@@ -72,12 +62,7 @@ export function keyDownOn(
  * Fires a 'keyup' event on a specific node. This event bubbles and is
  * cancellable.
  */
-export function keyUpOn(
-  target: Element,
-  keyCode: number,
-  modifiers: string | string[] = [],
-  key?: string
-) {
+export function keyUpOn(target: Element, keyCode: number, modifiers: string | string[] = [], key?: string) {
   keyEventOn(target, 'keyup', keyCode, modifiers, key);
 }
 

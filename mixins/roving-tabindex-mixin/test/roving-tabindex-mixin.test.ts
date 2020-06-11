@@ -8,9 +8,7 @@ import { SlottedItemsMixin } from '@vaadin/slotted-items-mixin';
 import { RovingTabIndexMixin } from '../roving-tabindex-mixin';
 
 @customElement('rtm-element')
-class RtmElement extends RovingTabIndexMixin(
-  KeyboardDirectionMixin(SlottedItemsMixin(LitElement))
-) {
+class RtmElement extends RovingTabIndexMixin(KeyboardDirectionMixin(SlottedItemsMixin(LitElement))) {
   render() {
     return html`
       <style>
@@ -39,9 +37,7 @@ describe('RovingTabIndexMixin', () => {
   let items: HTMLElement[];
 
   const expectTabIndexZero = (idx: number) => {
-    element.items.forEach((item, i) =>
-      expect(item.tabIndex).to.be.equal(i === idx ? 0 : -1)
-    );
+    element.items.forEach((item, i) => expect(item.tabIndex).to.be.equal(i === idx ? 0 : -1));
   };
 
   beforeEach(async () => {

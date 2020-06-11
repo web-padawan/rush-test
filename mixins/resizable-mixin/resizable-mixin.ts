@@ -3,9 +3,7 @@ import { Constructor } from '@vaadin/mixin-utils';
 import getResizeObserver from './resize-observer-polyfill';
 import { ResizableClass } from './resizable-class';
 
-export const ResizableMixin = <T extends Constructor<LitElement>>(
-  base: T
-): T & Constructor<ResizableClass> => {
+export const ResizableMixin = <T extends Constructor<LitElement>>(base: T): T & Constructor<ResizableClass> => {
   class Resizable extends base {
     protected static _resizeObserver?: ResizeObserver;
 

@@ -63,10 +63,7 @@ describe('MediaQueryMixin', () => {
     @customElement('mq-custom-element')
     class MqCustomElement extends MqElementBase {
       @mediaProperty({
-        media: window
-          .getComputedStyle(document.documentElement)
-          .getPropertyValue('--vaadin-responsive')
-          .trim()
+        media: window.getComputedStyle(document.documentElement).getPropertyValue('--vaadin-responsive').trim()
       })
       responsive: boolean | null | undefined;
     }

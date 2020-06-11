@@ -100,11 +100,7 @@ function fireTrack(info: TrackGestureInfo, target: EventTarget, touch: Touch | M
   );
 }
 
-function trackDocument(
-  info: TrackGestureInfo,
-  moveFn: (event: MouseEvent) => void,
-  upFn: (event: MouseEvent) => void
-) {
+function trackDocument(info: TrackGestureInfo, moveFn: (event: MouseEvent) => void, upFn: (event: MouseEvent) => void) {
   info.moveFn = moveFn;
   info.upFn = upFn;
   document.addEventListener('mousemove', moveFn);

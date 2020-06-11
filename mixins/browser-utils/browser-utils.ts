@@ -1,7 +1,6 @@
 // See https://stackoverflow.com/a/58064481
 export const isIOS =
-  /iPad|iPhone|iPod/.test(navigator.platform) ||
-  (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  /iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
 let observed = false;
 

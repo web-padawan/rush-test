@@ -254,9 +254,7 @@ describe('TrackEventMixin', () => {
   });
 
   describe('multiple applications', () => {
-    const TrackMixinA = <T extends Constructor<LitElement>>(
-      base: T
-    ): T & Constructor<TrackEventClass> => {
+    const TrackMixinA = <T extends Constructor<LitElement>>(base: T): T & Constructor<TrackEventClass> => {
       class TrackA extends TrackEventMixin(base) {
         protected get _trackTargets() {
           const superTargets = super._trackTargets || [];
@@ -266,9 +264,7 @@ describe('TrackEventMixin', () => {
       return TrackA;
     };
 
-    const TrackMixinB = <T extends Constructor<LitElement>>(
-      base: T
-    ): T & Constructor<TrackEventClass> => {
+    const TrackMixinB = <T extends Constructor<LitElement>>(base: T): T & Constructor<TrackEventClass> => {
       class TrackA extends TrackEventMixin(base) {
         protected get _trackTargets() {
           const superTargets = super._trackTargets || [];

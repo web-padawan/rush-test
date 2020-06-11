@@ -1,23 +1,16 @@
 import { expect } from '@bundled-es-modules/chai';
 import { LitElement, html, customElement } from 'lit-element';
 import sinon from 'sinon';
-import {
-  focusin,
-  focusout,
-  makeKeydownEvent,
-  tabKeyDown,
-} from '@vaadin/test-helpers';
+import { focusin, focusout, makeKeydownEvent, tabKeyDown } from '@vaadin/test-helpers';
 import { fixture, nextFrame, aTimeout } from '@open-wc/testing-helpers';
 import { DisabledStateMixin } from '@vaadin/disabled-state-mixin';
 import { FocusVisibleMixin } from '@vaadin/focus-visible-mixin';
 import { ControlStateMixin } from '../control-state-mixin';
 
 @customElement('csm-element')
-class CsmElement extends ControlStateMixin(
-  DisabledStateMixin(FocusVisibleMixin(LitElement))
-) {
+class CsmElement extends ControlStateMixin(DisabledStateMixin(FocusVisibleMixin(LitElement))) {
   render() {
-    return html`<input id='input' /><input id='secondInput' />`;
+    return html`<input id="input" /><input id="secondInput" />`;
   }
 
   get focusElement() {
@@ -121,9 +114,7 @@ describe('ControlStateMixin', () => {
     });
 
     it('should not set focused attribute on focusin event dispatched from other focusable element inside component', () => {
-      const secondFocusable = element.renderRoot.querySelector(
-        '#secondInput'
-      ) as HTMLInputElement;
+      const secondFocusable = element.renderRoot.querySelector('#secondInput') as HTMLInputElement;
       focusin(secondFocusable);
       expect(element.hasAttribute('focused')).to.be.false;
     });
@@ -142,7 +133,7 @@ describe('ControlStateMixin', () => {
       Object.defineProperty(event, 'defaultPrevented', {
         get() {
           return true;
-        },
+        }
       });
       element.dispatchEvent(event);
       expect(element.hasAttribute('focused')).to.be.true;
@@ -151,9 +142,7 @@ describe('ControlStateMixin', () => {
 
   describe('focus()', () => {
     it('should not throw an error when using focus() to a newly created element', () => {
-      expect(() => document.createElement('csm-element').focus()).to.not.throw(
-        Error
-      );
+      expect(() => document.createElement('csm-element').focus()).to.not.throw(Error);
     });
 
     it('should invoke focus on the focus element', () => {
@@ -201,11 +190,9 @@ describe('autofocus', () => {
 
 describe('focused with nested focusable elements', () => {
   @customElement('csm-wrapper')
-  class CsmWrapper extends ControlStateMixin(
-    DisabledStateMixin(FocusVisibleMixin(LitElement))
-  ) {
+  class CsmWrapper extends ControlStateMixin(DisabledStateMixin(FocusVisibleMixin(LitElement))) {
     render() {
-      return html` <csm-element id='testElement'></csm-element> `;
+      return html` <csm-element id="testElement"></csm-element> `;
     }
 
     get focusElement() {

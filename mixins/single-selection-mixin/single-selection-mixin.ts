@@ -13,10 +13,7 @@ export interface SingleSelectionInterface {
 
 const filterItems = (nodes: Node[]) => {
   return nodes.filter((node): node is SelectedStateClass => {
-    return (
-      node.nodeType === Node.ELEMENT_NODE &&
-      (node.constructor as typeof SelectedStateClass).hasSelectedStateMixin
-    );
+    return node.nodeType === Node.ELEMENT_NODE && (node.constructor as typeof SelectedStateClass).hasSelectedStateMixin;
   });
 };
 
