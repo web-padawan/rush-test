@@ -1,4 +1,5 @@
 module.exports = {
+  concurrency: 4,
   coverage: true,
   coverageConfig: {
     exclude: ['**/node_modules/**'],
