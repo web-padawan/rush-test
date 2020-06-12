@@ -18,6 +18,7 @@ export const CheckedStateMixin = <T extends Constructor<CheckedStateClass>>(
     protected updated(props: PropertyValues) {
       super.updated(props);
 
+      /* istanbul ignore else */
       if (props.has('checked')) {
         this._setAriaChecked(this.checked);
 

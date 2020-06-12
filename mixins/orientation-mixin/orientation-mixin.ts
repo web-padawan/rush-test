@@ -28,6 +28,7 @@ export const OrientationMixin = <T extends Constructor<DirectionClass>>(
     protected updated(props: PropertyValues) {
       super.updated(props);
 
+      /* istanbul ignore else */
       if (props.has('orientation')) {
         this._setOrientation();
       }

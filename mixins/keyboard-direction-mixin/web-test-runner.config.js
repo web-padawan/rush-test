@@ -1,4 +1,13 @@
 module.exports = {
+  coverage: {
+    exclude: ['**/node_modules/**'],
+    threshold: {
+      statements: 98,
+      branches: 90,
+      functions: 100,
+      lines: 98
+    }
+  },
   devServer: {
     nodeResolve: true,
     rootDir: '../../',
