@@ -15,7 +15,7 @@
       "name": "test",
       "commandKind": "bulk",
       "summary": "Run tests",
-      "enableParallelism": false,
+      "enableParallelism": true,
       "incremental": true,
       "ignoreMissingScript": true
     },
