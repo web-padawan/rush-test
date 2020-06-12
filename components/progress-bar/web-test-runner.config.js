@@ -11,6 +11,7 @@ module.exports = {
     }
   },
   devServer: {
+    compatibility: 'none',
     nodeResolve: true,
     rootDir: '../../',
     moduleDirs: ['node_modules', './components/progress-bar/node_modules']

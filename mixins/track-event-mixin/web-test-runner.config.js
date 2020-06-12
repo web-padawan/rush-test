@@ -11,6 +11,7 @@ module.exports = {
     }
   },
   devServer: {
+    compatibility: 'none',
     nodeResolve: true,
     rootDir: '../../',
     moduleDirs: ['node_modules', './mixins/track-event-mixin/node_modules']
