@@ -1,5 +1,6 @@
 module.exports = {
-  coverage: {
+  coverage: true,
+  coverageConfig: {
     exclude: ['**/node_modules/**'],
     threshold: {
       statements: 90,
