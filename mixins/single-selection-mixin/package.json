@@ -34,8 +34,8 @@
     "@types/mocha": "^7.0.2",
     "@vaadin/test-helpers": "^0.1.5",
     "@types/sinon": "^9.0.0",
-    "@web/test-runner": "^0.5.1",
-    "@web/test-runner-mocha": "^0.2.0",
+    "@web/test-runner": "^0.5.7",
+    "@web/test-runner-mocha": "^0.2.3",
     "sinon": "^9.0.1",
     "typescript": "^3.9.5"
   },

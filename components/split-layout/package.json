@@ -52,8 +52,8 @@
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
     "@types/sinon": "^9.0.0",
-    "@web/test-runner": "^0.5.1",
-    "@web/test-runner-mocha": "^0.2.0",
+    "@web/test-runner": "^0.5.7",
+    "@web/test-runner-mocha": "^0.2.3",
     "sinon": "^9.0.1",
     "replace-in-file": "^5.0.2",
     "typescript": "^3.9.5"
