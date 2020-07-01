@@ -1,3 +1,5 @@
+const { esbuildPlugin } = require('@web/dev-server-esbuild');
+
 module.exports = {
   concurrency: 4,
   coverage: true,
@@ -14,6 +16,7 @@ module.exports = {
     compatibility: 'none',
     nodeResolve: true,
     rootDir: '../../',
-    moduleDirs: ['node_modules', './mixins/slotted-items-mixin/node_modules']
+    moduleDirs: ['node_modules', './mixins/slotted-items-mixin/node_modules'],
+    plugins: [esbuildPlugin({ ts: true })]
   }
 };

@@ -30,7 +30,7 @@
   ],
   "scripts": {
     "build": "tsc && replace-in-file \"/(import|from)( '[.]+/)(.*)(?<!.js)(';)/g\" \"\\$1\\$2\\$3.js\\$4\" vaadin-*.{js,d.ts},src/*.{js,d.ts},theme/**/*.{js,d.ts} --isRegex --verbose",
-    "test": "wtr test/unit/*.js"
+    "test": "wtr test/unit/*.test.ts"
   },
   "dependencies": {
     "@vaadin/element-base": "^0.4.0",
@@ -48,8 +48,9 @@
     "@open-wc/testing-helpers": "^1.8.0",
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
-    "@web/test-runner": "^0.5.7",
-    "@web/test-runner-mocha": "^0.2.3",
+    "@web/dev-server-esbuild": "^0.0.3",
+    "@web/test-runner": "^0.5.20",
+    "@web/test-runner-mocha": "^0.2.5",
     "replace-in-file": "^5.0.2",
     "typescript": "^3.9.5"
   },
