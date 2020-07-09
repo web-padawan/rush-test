@@ -30,9 +30,9 @@
     "@open-wc/testing-helpers": "^1.8.0",
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
-    "@web/dev-server-esbuild": "^0.0.3",
-    "@web/test-runner": "^0.5.20",
-    "@web/test-runner-mocha": "^0.2.5",
+    "@web/dev-server-esbuild": "^0.1.1",
+    "@web/test-runner": "^0.6.7",
+    "@web/test-runner-mocha": "^0.2.6",
     "typescript": "^3.9.5"
   },
   "publishConfig": {

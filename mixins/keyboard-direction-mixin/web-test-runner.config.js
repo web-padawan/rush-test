@@ -12,11 +12,9 @@ module.exports = {
       lines: 98
     }
   },
-  devServer: {
-    compatibility: 'none',
-    nodeResolve: true,
-    rootDir: '../../',
-    moduleDirs: ['node_modules', './mixins/keyboard-direction-mixin/node_modules'],
-    plugins: [esbuildPlugin({ ts: true })]
-  }
+  compatibility: 'none',
+  nodeResolve: true,
+  rootDir: '../../',
+  moduleDirs: ['node_modules', './mixins/keyboard-direction-mixin/node_modules'],
+  plugins: [esbuildPlugin({ ts: true })]
 };

@@ -12,11 +12,9 @@ module.exports = {
       lines: 90
     }
   },
-  devServer: {
-    compatibility: 'none',
-    nodeResolve: true,
-    rootDir: '../../',
-    moduleDirs: ['node_modules', './mixins/orientation-mixin/node_modules'],
-    plugins: [esbuildPlugin({ ts: true })]
-  }
+  compatibility: 'none',
+  nodeResolve: true,
+  rootDir: '../../',
+  moduleDirs: ['node_modules', './mixins/orientation-mixin/node_modules'],
+  plugins: [esbuildPlugin({ ts: true })]
 };
