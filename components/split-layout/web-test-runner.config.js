@@ -6,10 +6,10 @@ module.exports = {
   coverageConfig: {
     exclude: ['**/node_modules/**', '**/test/unit/track-helpers.*'],
     threshold: {
-      statements: 100,
-      branches: 100,
+      statements: 97,
+      branches: 81,
       functions: 100,
-      lines: 100
+      lines: 97
     }
   },
   compatibility: 'none',

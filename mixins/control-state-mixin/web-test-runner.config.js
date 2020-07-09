@@ -6,10 +6,10 @@ module.exports = {
   coverageConfig: {
     exclude: ['**/node_modules/**'],
     threshold: {
-      statements: 96,
-      branches: 88,
-      functions: 93,
-      lines: 96
+      statements: 97,
+      branches: 83,
+      functions: 94,
+      lines: 97
     }
   },
   compatibility: 'none',

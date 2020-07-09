@@ -7,8 +7,8 @@ module.exports = {
     exclude: ['**/node_modules/**'],
     threshold: {
       statements: 90,
-      branches: 100,
-      functions: 80,
+      branches: 66,
+      functions: 83,
       lines: 90
     }
   },
