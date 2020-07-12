@@ -4,12 +4,12 @@ module.exports = {
   concurrency: 4,
   coverage: true,
   coverageConfig: {
-    exclude: ['**/.pnpm/**'],
+    include: ['**/mixins/orientation-mixin/*'],
     threshold: {
-      statements: 90,
-      branches: 66,
+      statements: 89,
+      branches: 100,
       functions: 83,
-      lines: 90
+      lines: 89
     }
   },
   compatibility: 'none',

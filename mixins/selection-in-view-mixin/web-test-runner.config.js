@@ -4,7 +4,7 @@ module.exports = {
   concurrency: 4,
   coverage: true,
   coverageConfig: {
-    exclude: ['**/.pnpm/**'],
+    include: ['**/mixins/selection-in-view-mixin/*'],
     threshold: {
       statements: 97,
       branches: 100,

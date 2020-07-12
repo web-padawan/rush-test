@@ -4,12 +4,12 @@ module.exports = {
   concurrency: 4,
   coverage: true,
   coverageConfig: {
-    exclude: ['**/.pnpm/**'],
+    include: ['**/components/progress-bar/src/*'],
     threshold: {
-      statements: 96,
-      branches: 71,
+      statements: 100,
+      branches: 100,
       functions: 100,
-      lines: 96
+      lines: 100
     }
   },
   compatibility: 'none',

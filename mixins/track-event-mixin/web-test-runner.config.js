@@ -4,12 +4,12 @@ module.exports = {
   concurrency: 4,
   coverage: true,
   coverageConfig: {
-    exclude: ['**/.pnpm/**'],
+    include: ['**/mixins/track-event-mixin/*'],
     threshold: {
-      statements: 98,
-      branches: 82,
+      statements: 99,
+      branches: 86,
       functions: 95,
-      lines: 98
+      lines: 99
     }
   },
   compatibility: 'none',

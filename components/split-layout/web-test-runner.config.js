@@ -4,7 +4,7 @@ module.exports = {
   concurrency: 4,
   coverage: true,
   coverageConfig: {
-    exclude: ['**/node_modules/**', '**/test/unit/track-helpers.*'],
+    include: ['**/components/split-layout/src/*'],
     threshold: {
       statements: 97,
       branches: 81,

@@ -4,10 +4,10 @@ module.exports = {
   concurrency: 4,
   coverage: true,
   coverageConfig: {
-    exclude: ['**/.pnpm/**'],
+    include: ['**/mixins/browser-utils/*'],
     threshold: {
       statements: 100,
-      branches: 91,
+      branches: 75,
       functions: 100,
       lines: 100
     }

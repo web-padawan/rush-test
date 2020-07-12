@@ -4,10 +4,10 @@ module.exports = {
   concurrency: 4,
   coverage: true,
   coverageConfig: {
-    exclude: ['**/.pnpm/**'],
+    include: ['**/mixins/themable-element/*'],
     threshold: {
       statements: 100,
-      branches: 92,
+      branches: 66,
       functions: 100,
       lines: 100
     }

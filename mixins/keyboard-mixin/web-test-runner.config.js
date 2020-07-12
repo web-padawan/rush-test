@@ -4,11 +4,11 @@ module.exports = {
   concurrency: 4,
   coverage: true,
   coverageConfig: {
-    exclude: ['**/.pnpm/**'],
+    include: ['**/mixins/keyboard-mixin/*'],
     threshold: {
       statements: 100,
       branches: 100,
-      functions: 66,
+      functions: 50,
       lines: 100
     }
   },

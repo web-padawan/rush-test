@@ -4,12 +4,12 @@ module.exports = {
   concurrency: 4,
   coverage: true,
   coverageConfig: {
-    exclude: ['**/.pnpm/**'],
+    include: ['**/mixins/media-query-mixin/*'],
     threshold: {
-      statements: 100,
-      branches: 66,
+      statements: 98,
+      branches: 92,
       functions: 100,
-      lines: 100
+      lines: 98
     }
   },
   compatibility: 'none',

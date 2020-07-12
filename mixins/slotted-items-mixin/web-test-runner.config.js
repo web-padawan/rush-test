@@ -4,7 +4,7 @@ module.exports = {
   concurrency: 4,
   coverage: true,
   coverageConfig: {
-    exclude: ['**/.pnpm/**'],
+    include: ['**/mixins/slotted-items-mixin/*'],
     threshold: {
       statements: 100,
       branches: 68,

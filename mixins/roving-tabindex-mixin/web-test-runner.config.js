@@ -4,7 +4,7 @@ module.exports = {
   concurrency: 4,
   coverage: true,
   coverageConfig: {
-    exclude: ['**/.pnpm/**'],
+    include: ['**/mixins/roving-tabindex-mixin/*'],
     threshold: {
       statements: 100,
       branches: 88,
