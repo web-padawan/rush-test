@@ -20,12 +20,12 @@ export function KeyboardMixin<T extends Constructor<KeyboardClass>>(base: T): Co
       });
     }
 
-    /* istanbul ignore next */
+    /* c8 ignore next */
     protected _onKeyDown(_event: KeyboardEvent) {
       // to be implemented
     }
 
-    /* istanbul ignore next */
+    /* c8 ignore next */
     protected _onKeyUp(_event: KeyboardEvent) {
       // to be implemented
     }

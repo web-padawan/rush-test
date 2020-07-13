@@ -6,10 +6,10 @@ module.exports = {
   coverageConfig: {
     include: ['**/mixins/resizable-mixin/*'],
     threshold: {
-      statements: 97,
-      branches: 85,
-      functions: 87,
-      lines: 97
+      statements: 100,
+      branches: 92,
+      functions: 100,
+      lines: 100
     }
   },
   compatibility: 'none',

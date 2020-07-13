@@ -162,7 +162,6 @@ const TrackGesture: TrackGesture = {
           self.info.state = 'end';
           unTrackDocument(self.info);
         }
-        /* istanbul ignore else */
         if (target) {
           fireTrack(self.info, target, e);
         }
@@ -248,7 +247,7 @@ const handleNative = (ev: MouseEvent | TouchEvent) => {
     case 'touchend':
       TrackGesture.touchend(ev as TouchEvent);
       break;
-    /* istanbul ignore next */
+    /* c8 ignore next */
     default:
   }
 };
@@ -261,7 +260,6 @@ export function addTrackListeners(node: HTMLElement) {
   for (let i = 0, dep; i < deps.length; i += 1) {
     dep = deps[i];
     // don't add mouse handlers on iOS because they cause gray selection overlays
-    /* istanbul ignore else */
     if (Boolean(isIOS && isMouseEvent(dep)) === false) {
       node.addEventListener(dep, handleNative as EventListener);
     }
@@ -277,7 +275,6 @@ export function removeTrackListeners(node: Element) {
   const { deps } = TrackGesture;
   for (let i = 0, dep; i < deps.length; i += 1) {
     dep = deps[i];
-    /* istanbul ignore else */
     if (Boolean(isIOS && isMouseEvent(dep)) === false) {
       node.removeEventListener(dep, handleNative as EventListener);
     }

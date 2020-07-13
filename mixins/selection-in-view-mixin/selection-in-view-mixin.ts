@@ -27,7 +27,7 @@ export const SelectionInViewMixin = <
   base: T
 ): T & Constructor<SelectionInViewClass> => {
   class SelectionInView extends base {
-    /* istanbul ignore next */
+    /* c8 ignore next 3 */
     protected get _scrollTarget() {
       return this;
     }

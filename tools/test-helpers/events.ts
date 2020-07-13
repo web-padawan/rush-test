@@ -1,4 +1,3 @@
-/* istanbul ignore file */
 const HAS_NEW_TOUCH = (() => {
   let has = false;
   try {

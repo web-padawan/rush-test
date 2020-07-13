@@ -33,7 +33,6 @@ export function move(node: Element, fromXY: TestEventCoords, toXY: TestEventCoor
 }
 
 export function track(node: Element, dx: number, dy: number, steps = 5) {
-  /* istanbul ignore if */
   const xy = middleOfNode(node);
   if (isIOS) {
     touchstart(node, xy);

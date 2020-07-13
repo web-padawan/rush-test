@@ -58,12 +58,12 @@ export const DownUpMixin = <T extends Constructor<DownUpClass>>(base: T): T & Co
       this._onUp();
     }
 
-    /* istanbul ignore next */
+    /* c8 ignore next */
     protected _onDown() {
       // to be implemented
     }
 
-    /* istanbul ignore next */
+    /* c8 ignore next */
     protected _onUp() {
       // to be implemented
     }

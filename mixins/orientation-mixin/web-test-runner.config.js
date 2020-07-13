@@ -6,10 +6,10 @@ module.exports = {
   coverageConfig: {
     include: ['**/mixins/orientation-mixin/*'],
     threshold: {
-      statements: 89,
+      statements: 93,
       branches: 100,
       functions: 83,
-      lines: 89
+      lines: 93
     }
   },
   compatibility: 'none',

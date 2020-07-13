@@ -6,10 +6,10 @@ module.exports = {
   coverageConfig: {
     include: ['**/mixins/selection-in-view-mixin/*'],
     threshold: {
-      statements: 97,
+      statements: 100,
       branches: 100,
       functions: 85,
-      lines: 97
+      lines: 100
     }
   },
   compatibility: 'none',

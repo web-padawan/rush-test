@@ -46,7 +46,6 @@ export const SlottedItemsMixin = <T extends Constructor<SlottedItemsClass>>(
       super.firstUpdated(props);
 
       const slot = this.renderRoot.querySelector('slot');
-      /* istanbul ignore else */
       if (slot) {
         slot.addEventListener('slotchange', () => {
           this._setItems();

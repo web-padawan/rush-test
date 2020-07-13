@@ -15,7 +15,7 @@ export const OrientationMixin = <T extends Constructor<DirectionClass>>(
   class Orientation extends Base {
     /**
      * Set element disposition. Possible values are `horizontal|vertical`.
-     * @type {`horizontal|vertical}
+     * @type {horizontal|vertical}
      */
     @property({ type: String, reflect: true }) orientation: string | null | undefined;
 
@@ -28,12 +28,12 @@ export const OrientationMixin = <T extends Constructor<DirectionClass>>(
     protected updated(props: PropertyValues) {
       super.updated(props);
 
-      /* istanbul ignore else */
       if (props.has('orientation')) {
         this._setOrientation();
       }
     }
 
+    /* c8 ignore next 3 */
     protected get _vertical() {
       return this.orientation === 'vertical';
     }

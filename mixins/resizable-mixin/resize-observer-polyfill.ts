@@ -4,7 +4,7 @@ let RO: ResizeObserver | undefined;
 
 async function init() {
   RO = (window as { ResizeObserver?: ResizeObserver }).ResizeObserver;
-  /* istanbul ignore next */
+  /* c8 ignore next 5 */
   try {
     new (RO as any)(() => {}); // eslint-disable-line
   } catch (e) {

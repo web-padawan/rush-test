@@ -66,8 +66,6 @@ export function keyUpOn(target: Element, keyCode: number, modifiers: string | st
   keyEventOn(target, 'keyup', keyCode, modifiers, key);
 }
 
-/* istanbul ignore file */
-
 export function makeKeydownEvent(key: number, modifiers: string | string[] = []) {
   return keyboardEventFor('keydown', key, modifiers);
 }
