@@ -1,18 +1,7 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
-    "inlineSources": true,
-    "module": "esNext",
-    "target": "es2018",
-    "lib": ["esnext", "es2018", "dom"],
-    "moduleResolution": "node",
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "strict": true,
-    "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true
-  }
+  },
+  "include": ["*"]
 }
